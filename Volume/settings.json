@@ -2703,6 +2703,54 @@
             "earliest": 2,
             "latest": "",
             "enable": true
+        },
+        {
+            "mark": "纳指星球",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAARISQ6GFhHn8r1ot0tzBjbYQXCG65qGeD0q1n8zon8Pc",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "每日研报纪要",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAY5qeNHZXadTqpAkahZ--s1Tyw_bHKJihyeiIsbtrrnYxMaAN0sWW1S0gqqokCB5O",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "潜力股",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAkbFDsmozHq1E-ngzMRXrI_3LwKPrs9a-L3nM2MZb0gE",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "巴芒之门",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAdC26K8cHnslaE1gpDIy2v5pyYqUjOV6Kadh2nKOGW6nlJniS34Pc0MRPjh8uPg25",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "北游知",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAW-k5cnbLU4G--QmqykzK_Bg6LuisDNrDoqmiBaC_dts",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "查理研报纪要",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAxS9W6UQszAMoGC8epjWcc2fS8VukLuRJIJUckVda2n8",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
         }
     ],
     "accounts_urls_tiktok": [
