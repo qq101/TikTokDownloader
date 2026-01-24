@@ -1089,14 +1089,6 @@
             "enable": true
         },
         {
-            "mark": "人工智障Ultra",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAArKBrWW9DSyNx7PoO_ZrF1xEfvb0jIcr9Cmvs7gZ3z5U",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
             "mark": "强势财讯",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAn-89bKHIjhA4pRVH1uR7E7RZchsW4pwI7omefrv9eLMlIfYfx3UnkhO6p0C6F5Fh",
             "tab": "post",
@@ -1497,14 +1489,6 @@
             "enable": true
         },
         {
-            "mark": "火荣荣",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAA0llGOFA4H-mVQOFoVDnbaM5u8UvY3_nMydO6i5P8V-U",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
             "mark": "熊猫大讲堂",
             "url": "https://www.douyin.com/user/MS4wLjABAAAATm5y7BzIhMic8dRzGjTT3K5rzv-SJOBTrgnpcE6Lvd0",
             "tab": "post",
@@ -1649,8 +1633,8 @@
             "enable": true
         },
         {
-            "mark": "丽说财经",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAH5wy76jYls6TCU_7AD-LkYOKJd35K2rk1cmhkYQg38h3kVSDdHzGs0Roq63AQqQe",
+            "mark": "财经丽记",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAA2zPXZdFNCOFz_W3HSuVXEu7W0j7Z_65lD1Bn_WZ22phw0Mwota82dGz4ssaptGCq",
             "tab": "post",
             "earliest": 2,
             "latest": "",
