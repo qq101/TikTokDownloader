@@ -1073,14 +1073,6 @@
             "enable": true
         },
         {
-            "mark": "福大命大脑袋大",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAA8UYs-DvINVGtmONFnJMWp3aPXU81sb2P_E4gfY3dDos",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
             "mark": "强势财讯",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAn-89bKHIjhA4pRVH1uR7E7RZchsW4pwI7omefrv9eLMlIfYfx3UnkhO6p0C6F5Fh",
             "tab": "post",
@@ -1441,14 +1433,6 @@
             "enable": true
         },
         {
-            "mark": "奇点量策（陈晓）",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAhSrmcnP-Y3Dg8OT4xHA8KVActJSG7EbUtW9VYHYcQhY",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
             "mark": "傻白呀",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAGLwNfNCA8cwEhJTEqlXlvKFYVrVYwUKcF3sAr11jHs0",
             "tab": "post",
@@ -1595,14 +1579,6 @@
         {
             "mark": "交易匠人",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAybMIof66FHhd-_qnINZorWGTNgSSx9fRZ2u_bu_bNB0",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
-            "mark": "牛二研报纪要",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAWGs2N4r_PbCH8uXi07DlK8G5T-dz2EA_bnoWb00V5BaR_-LdVLMDxIfqFbU8qbwX",
             "tab": "post",
             "earliest": 2,
             "latest": "",
@@ -1811,14 +1787,6 @@
         {
             "mark": "牛熊大玩家",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAqoV7JMQg4UHc4t7fvMnrj14DHZ4Lfd5yHanR1wq3sAgNC2Kr_uI0IW7i8_u3tuwA",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
-            "mark": "交易派",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAA-pBzvYAzYe3pDQ_OCBGtYy_OAM8FZ-PaX2etn-uF7L8",
             "tab": "post",
             "earliest": 2,
             "latest": "",
@@ -2051,14 +2019,6 @@
         {
             "mark": "乔巴的逆时生长",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAuIJcAcxWUNI0uXIu0rxrAAogEeMsHOncBivb2yFh5uY",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
-            "mark": "WayFinanceTrader",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAuOatsj_f_ma7i_osFxJEoy_dY1xam8vlpOCZzjwfMrgITzxzMK_d2iTt_aH1RKBP",
             "tab": "post",
             "earliest": 2,
             "latest": "",
@@ -2345,14 +2305,6 @@
             "enable": true
         },
         {
-            "mark": "遇道贵人",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAbaiMHl8K1VJk-stYRc-FmcOaMS7qYYlKdydFOhGoCnk",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
             "mark": "北风逐齐",
             "url": "https://www.douyin.com/user/MS4wLjABAAAASuWYjKgz68tcysuU4wPFKXdN2UmD6mHhwfA1Y95LXII&vid=7588237494648747889",
             "tab": "post",
@@ -2403,14 +2355,6 @@
         {
             "mark": "我姓张叫亭板",
             "url": "https://www.douyin.com/user/MS4wLjABAAAA7H77xiPIfsOsELBKJacMTKKHInsHhwhpG2kX0gwTGSw",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
-            "mark": "陈晓量化开发",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAsgQBzeMil1UHLtJlQ6cg7tTIW_3hBtn_O76MG5Vv7GquBSNARVhwpb9VLN7h9bJG",
             "tab": "post",
             "earliest": 2,
             "latest": "",
@@ -2699,6 +2643,22 @@
         {
             "mark": "查理研报纪要",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAxS9W6UQszAMoGC8epjWcc2fS8VukLuRJIJUckVda2n8",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "你家老黄",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAsa5wI8zxVdem_u6PJXWD7eQ0vGfcmUWhq_7T91QV9pO2hdXzmYHJpxxEasiLDZT9",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "陈凯交易之路",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAjnduRoEA9_ifWXoh3Pq8n1yveZABXwEjTZqDJ0CkHqZsdblu7m-gBaMdEg_qwfuW",
             "tab": "post",
             "earliest": 2,
             "latest": "",
