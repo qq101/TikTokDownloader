@@ -2385,14 +2385,6 @@
             "enable": true
         },
         {
-            "mark": "慧眼禅心的修炼",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAAPARGsJMqgUw7ZToj_h24k5fU35IcxUUYxX6rrKYLIOb9ic6Dex8XlP8LaLZP2Qv",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
             "mark": "交易员小郑的退休生活",
             "url": "https://www.douyin.com/user/MS4wLjABAAAADKe7VW3AR878YWe_PYGrwTN8cuA4EJ-BZdO13A-DQ7frUFUj3FdIX8bmNPvIXsjL",
             "tab": "post",
@@ -2617,14 +2609,6 @@
             "enable": true
         },
         {
-            "mark": "每日研报纪要",
-            "url": "https://www.douyin.com/user/MS4wLjABAAAAY5qeNHZXadTqpAkahZ--s1Tyw_bHKJihyeiIsbtrrnYxMaAN0sWW1S0gqqokCB5O",
-            "tab": "post",
-            "earliest": 2,
-            "latest": "",
-            "enable": true
-        },
-        {
             "mark": "潜力股",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAkbFDsmozHq1E-ngzMRXrI_3LwKPrs9a-L3nM2MZb0gE",
             "tab": "post",
@@ -2659,6 +2643,54 @@
         {
             "mark": "陈凯交易之路",
             "url": "https://www.douyin.com/user/MS4wLjABAAAAjnduRoEA9_ifWXoh3Pq8n1yveZABXwEjTZqDJ0CkHqZsdblu7m-gBaMdEg_qwfuW",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "TechScopeLab-科境坊",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAsUyoMln3kedcDHtkTNgLLVc7jyefZQSC-gmsH50ZBbzKQCn9yWo04TuCqr2Iz5Zl",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "真深挖-科技前沿",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAlQ1iY8rDTz65yoSRHNS7I7prlbh9ZDQDvc1QfC8Ws7ZSpj-QBIznRHaKg6C87FLJ",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "产业研究",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAI_YVqDbFbHZLRVp95TEBKTg6BLut04JEn394JRaBVDXaZYCC2tWUyxaSCsQNaju-",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "大都督陆逊",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAcCisPErG9joni4f5ifzICM02Yds1kugYHuXduSYxuwZvP4UJYgJLgYHcAnl-tELf",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "",
+            "url": "",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "",
+            "url": "",
             "tab": "post",
             "earliest": 2,
             "latest": "",
