@@ -2657,8 +2657,16 @@
             "enable": true
         },
         {
-            "mark": "",
-            "url": "",
+            "mark": "机构调研日记",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAap6fnKWH017ZywvNEpkWCTBuF17rhdNeE6UnUD-CrkGfCg77UauYcyv6vj5PokFR",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "7M的投资笔记",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAA6n3RibV2v9XpGQ3t_2LWI4cI1JHVUrukAUDfHsjHMcvthck2Eo7h6lXuh9pL-A05?",
             "tab": "post",
             "earliest": 2,
             "latest": "",
