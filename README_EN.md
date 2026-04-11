@@ -27,11 +27,11 @@
 <details>
 <summary>Function List (Click to Expand)</summary>
 <ul>
-<li>✅ Download DouYin video/image without watermarks</li>
-<li>✅ Download DouYin live photo without watermarks</li>
+<li>✅ Download DouYin video/image</li>
+<li>✅ Download DouYin live photo</li>
 <li>✅ Download the highest quality video file</li>
 <li>✅ Download TikTok video source files</li>
-<li>✅ Download TikTok video/image without watermarks</li>
+<li>✅ Download TikTok video/image</li>
 <li>✅ Download of DouYin account posts/liked/favorites works</li>
 <li>✅ Download of TikTok account posts/liked works</li>
 <li>✅ Collect detailed data from DouYin/TikTok</li>
@@ -131,10 +131,10 @@ demo()
 <p>⭐ Mac OS and Windows 10 and above users can go to <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> or <a href="https://github.com/JoeanAmier/TikTokDownloader/actions">Actions</a> to download the compiled program, ready to use!</p>
 <p>⭐ This project includes GitHub Actions for automatic building executable files. Users can use GitHub Actions to build the latest source code into executable files at any time!</p>
 <p>⭐ For the automatic building executable files tutorial, please refer to the <code>Build of Executable File Guide</code> section of this document. If you need a more detailed step-by-step tutorial with illustrations, please <a href="https://mp.weixin.qq.com/s/TorfoZKkf4-x8IBNLImNuw">check out this article</a>!</p>
-<p><strong>Note: Due to the macOS platform's executable file <code>main</code> not being code-signed, it will be restricted by system security measures on first run. Please execute the command <code>xattr -cr main.app</code> in the terminal to remove the security flag, after which it can run normally.</strong></p>
+<p><strong>Note: Due to the macOS platform's executable file <code>main</code> not being code-signed, it will be restricted by system security measures on first run. Please execute the command <code>xattr -cr project_folder_path</code> in the terminal to remove the security flag, after which it can run normally.</strong></p>
 <hr>
 <ol>
-<li><b>Run the executable file</b> or <b>configure the environment to run</b>(choose one of the two)
+<li><b>Run the executable file</b> or <b>configure the environment to run</b> (choose one of the two)
 <ol><b>Run the executable file</b>
 <li>Download the executable file compressed file built by <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> or Actions.</li>
 <li>After extracting, open the program folder and double-click to run <code>main</code>.</li>
@@ -142,12 +142,18 @@ demo()
 <ol><b>Configure the environment to run</b>
 
 [//]: # (<li>Install Python interpreter version not lower than <code>3.12</code></li>)
-<li>Install Python interpreter version <code>3.12</code></li>
-<li>Download the latest source code or the source code published on <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> to your local machine.</li>
-<li>Run the command <code>python -m venv venv</code> to create a virtual environment (optional).</li>
-<li>Run the command <code>.\venv\Scripts\activate.ps1</code> or <code>venv\Scripts\activate</code> to activate the virtual environment (optional).</li>
-<li>Run the command <code>pip install -r requirements.txt</code> to install the required modules for the program.</li>
-<li>Run the command <code>python .\main.py</code> or <code>python main.py</code> to start DouK-Downloader.</li>
+<li>Install the <a href="https://www.python.org/">Python</a> interpreter version <code>3.12</code></li>
+<li>Download the latest source code or the source code released in <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> to your local machine</li>
+<ol><b>Install project dependencies using pip</b>
+<li>Run the command <code>python -m venv venv</code> to create a virtual environment (optional)</li>
+<li>Run the command <code>.\venv\Scripts\activate.ps1</code> or <code>venv\Scripts\activate</code> to activate the virtual environment (optional)</li>
+<li>Run the command <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt</code> to install the required modules for the program</li>
+<li>Run the command <code>python .\main.py</code> or <code>python main.py</code> to start DouK-Downloader</li>
+</ol>
+<ol><b>Install project dependencies using uv (recommended)</b>
+<li>Run the command <code>uv sync --no-dev</code> to synchronize environment dependencies</li>
+<li>Run the command <code>uv run main.py</code> to start DouK-Downloader</li>
+</ol>
 </ol>
 </li>
 <li>Read the disclaimer of DouK-Downloader and enter content according to the prompt.</li>
@@ -209,13 +215,14 @@ demo()
 ## Other Instructions
 
 <ul>
+<li>This project has a built-in intelligent delay request mechanism to avoid affecting platform servers due to excessive request frequency. If you need to disable it, please refer to the <a href="https://github.com/JoeanAmier/TikTokDownloader/wiki/Documentation#%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE">documentation</a></li>
 <li>When the program prompts the user for input, pressing Enter directly will return to the previous menu, and inputting <code>Q</code> or <code>q</code> will end the program's execution.</li>
 <li>Since fetching data for liked and favorites works of an account only returns the publication dates of those works, not the dates of the actions (liking or favouring), the program needs to retrieve all liked and favorites works data before performing date filtering. If there are a large number of works, this may take a considerable amount of time. The number of requests can be controlled via the <code>max_pages</code> parameter.</li>
 <li>To obtain data for posts made by a private account, a logged-in Cookie is required, and the logged-in account must follow the private account.</li>
 <li>When batch downloading account posts works or mix works, if the corresponding nickname or mark parameter changes, the program will automatically update the nickname and mark parameter in the file names of the downloaded works.</li>
 <li>When downloading files, the program first downloads them to a temporary folder and then moves them to the storage folder upon completion. The temporary folder will be emptied when the program ends.</li>
 <li>The <code>Batch Download Favorites Works Mode</code> currently only supports downloading Favorites works for the account corresponding to the currently logged-in Cookie and does not support multiple accounts.</li>
-<li>If you want the program to use a proxy to request data, you must set the <code>proxy</code> parameter in <code>settings.json</code>; otherwise, the program will not use a proxy.</li>
+<li>If you want the program to use a proxy to request data, set the <code>proxy</code> parameter in the configuration file <code>settings.json</code> (may consider using proxy services like: <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a>)</li>
 <li>If your computer does not have a suitable program for editing JSON files, we recommend using the <a href="https://www.toolhelper.cn/JSON/JSONFormat">Online Tool</a> to edit the configuration file content, after modification, the software needs to be restarted to take effect.</li>
 <li>When the program prompts the user to input content or links, please be careful to avoid including newline characters, as this may cause unexpected issues.</li>
 <li>This project does not support downloading paid works. Please do not report any issues related to downloading paid works.</li>
@@ -378,7 +385,7 @@ repository to execute the build process
 
 ## DartNode
 
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+[![Powered by DartNode](docs/AD/DartNode_AD.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 
 ***
 
@@ -389,9 +396,16 @@ repository to execute the build process
 
 ***
 
+## Swiftproxy
+
+<p><a href="https://www.swiftproxy.net/?ref=TikTokDownloader"><img src="docs/AD/Swiftproxy_EN_AD.png" alt="Swiftproxy"></a></p>
+<p>Access a global pool of 80M+ residential IPs optimized for TikTok and Douyin data extraction. <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a> helps bypass rate limits, reduce blocks, and ensures stable downloads with seamless IP rotation.</p>
+
+***
+
 ## TikHub
 
-<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader"><img src="docs/TIKHUB_AD.jpg" alt="TIKHUB" width="458" height="319"></a></p>
+<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader"><img src="docs/AD/TIKHUB_AD.jpg" alt="TIKHUB" width="458" height="319"></a></p>
 <p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader">TikHub API</a> offers over 700 endpoints to retrieve and analyze data from 14+ social media platforms—including videos, users, comments, stores, products, trends, and more—enabling one-stop access and analysis of all your data.</p>
 <p>Use <strong>invitation code</strong>: <code>ZrdH8McC</code> to register and recharge to get <code>$2</code> credit.</p>
 
@@ -416,19 +430,15 @@ repository to execute the build process
 # 💡 Project References
 
 * https://github.com/Johnserf-Seed/f2
-* https://github.com/Johnserf-Seed/TikTokDownload
 * https://github.com/Evil0ctal/Douyin_TikTok_Download_API
 * https://github.com/justbeluga/tiktok-web-reverse-engineering
-* https://github.com/NearHuiwen/TiktokDouyinCrawler
 * https://github.com/ihmily/DouyinLiveRecorder
 * https://github.com/encode/httpx/
 * https://github.com/Textualize/rich
 * https://github.com/omnilib/aiosqlite
 * https://github.com/Tinche/aiofiles
-* https://github.com/thewh1teagle/rookie
 * https://github.com/pyinstaller/pyinstaller
 * https://foss.heptapod.net/openpyxl/openpyxl
 * https://github.com/carpedm20/emoji/
 * https://github.com/lxml/lxml
 * https://ffmpeg.org/ffmpeg-all.html
-* https://www.tikwm.com/

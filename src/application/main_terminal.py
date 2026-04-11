@@ -202,10 +202,10 @@ class TikTok:
                 self.live_interactive_tiktok,
             ),
             # (_("采集作品评论数据(TikTok)"), self.comment_interactive_tiktok,),
-            (
-                _("批量下载视频原画(TikTok)"),
-                self.detail_interactive_tiktok_unofficial,
-            ),
+            # (
+            #     _("批量下载视频原画(TikTok)"),
+            #     self.detail_interactive_tiktok_unofficial,
+            # ),
         )
         self.__function_account = (
             (_("使用 accounts_urls 参数的账号链接(推荐)"), self.account_detail_batch),
@@ -635,6 +635,7 @@ class TikTok:
             earliest,
             latest,
             pages,
+            **kwargs,
         ).run()
 
     async def _get_account_data_tiktok(
@@ -658,6 +659,7 @@ class TikTok:
             earliest,
             latest,
             pages,
+            **kwargs,
         ).run()
 
     async def get_user_info_data(
