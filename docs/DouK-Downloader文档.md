@@ -16,7 +16,7 @@
 </div>
 <br>
 <p>🔥 <b>TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集工具：</b>完全开源，基于 HTTPX 模块实现的免费数据采集和文件下载工具；批量下载抖音账号发布、喜欢、收藏、收藏夹作品；批量下载 TikTok 账号发布、喜欢作品；下载抖音链接或 TikTok 链接作品；获取抖音直播拉流地址；下载抖音直播视频；获取 TikTok 直播拉流地址；下载 TikTok 直播视频；采集抖音作品评论数据；批量下载抖音合集作品；批量下载 TikTok 合辑作品；采集抖音账号详细数据；采集抖音用户 / 作品 / 直播搜索结果；采集抖音热榜数据。</p>
-<p>⭐ <b>项目版本：<code>5.8 Beta</code>；文档更新日期：<code>2026/4/22</code></b></p>
+<p>⭐ <b>项目版本：<code>5.8 Beta</code>；文档更新日期：<code>2026/5/12</code></b></p>
 <p>⭐ <b>项目文档正在完善，如果发现任何错误或描述模糊之处，请告知作者以便改进！本项目历史名称：<code>TikTokDownloader</code></b></p>
 <p>⭐ Due to the author’s limited time and energy, the complete English documentation for this project is not yet available. If you wish to read the full documentation, we recommend using AI translation tools to assist your understanding. If you would like to contribute to the translation, your help is warmly welcomed.</p>
 <hr>
@@ -31,9 +31,7 @@
 <li>解压后打开程序文件夹，双击运行 <code>main</code></li>
 </ol>
 <ol><b>配置环境运行</b>
-
-[//]: # (<li>安装不低于 <code>3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</li>)
-<li>安装 <code>3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</li>
+<li>安装不低于 <code>3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</li>
 <li>下载最新的源码或 <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> 发布的源码至本地</li>
 <li>运行 <code>python -m venv venv</code> 命令创建虚拟环境（可选）</li>
 <li>运行 <code>.\venv\Scripts\activate.ps1</code> 或者 <code>venv\Scripts\activate</code> 命令激活虚拟环境（可选）</li>
@@ -43,12 +41,12 @@
 </li>
 <li>阅读 DouK-Downloader 的免责声明，根据提示输入内容</li>
 <li>将 Cookie 信息写入配置文件
-<ol><b>从剪贴板读取 Cookie（推荐）</b>
+<ol><b>从剪贴板读取 Cookie</b>
 <li>参考 <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/docs/Cookie%E8%8E%B7%E5%8F%96%E6%95%99%E7%A8%8B.md">Cookie 提取教程</a>，复制所需 Cookie 至剪贴板</li>
 <li>选择 <code>从剪贴板读取 Cookie</code> 选项，程序会自动读取剪贴板的 Cookie 并写入配置文件</li>
 </ol>
-<ol><b>从浏览器读取 Cookie</b>
-<li>选择 <code>从浏览器读取 Cookie</code> 选项，按照提示输入浏览器类型或序号</li>
+<ol><b><del>从浏览器读取 Cookie（弃用）</del></b>
+<li><del>选择 <code>从浏览器读取 Cookie</code> 选项，按照提示输入浏览器类型或序号</del></li>
 </ol>
 <ol><b><del>扫码登录获取 Cookie</del>（失效）</b>
 <li><del>选择 <code>扫码登录获取 Cookie</code> 选项，程序会显示登录二维码图片，并使用默认应用打开图片</del></li>
@@ -1280,6 +1278,8 @@ A:
 A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fork 仓库的方式执行打包流程
 
 <h1>常见问题与解决方案</h1>
+<h2>Windows 系统运行已编译的程序发生闪退</h2>
+<p>已编译的程序发生异常报错，参考 <a href="https://github.com/JoeanAmier/TikTokDownloader/issues/127">issue</a> 获取异常报错信息，向作者反馈问题！</p>
 <h2>响应内容不是有效的 JSON 数据</h2>
 <p>可能是 Cookie 无效或者接口失效；请尝试清除 DNS 缓存，更新 Cookie，如果仍然无法解决，可能是接口失效，请考虑向作者反馈！</p>
 <h2 id="twc">获取 ttwid 参数失败</h2>
@@ -1303,6 +1303,8 @@ A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fo
 <p>网络异常；如果您的网络需要使用代理才能访问 TikTok，请在配置文件设置 <code>proxy</code> 参数！</p>
 <h2>self 获取账号信息失败</h2>
 <p>请把配置文件的 <code>owner_url</code> 参数修改为实际的抖音主页链接，获取方式请查阅 <a href="https://github.com/JoeanAmier/TikTokDownloader/issues/416">issue</a></p>
+<h2>下载抖音账号作品时无法获取最新发布作品或者作品数量不全</h2>
+<p>登录状态和未登录状态下的作品数据获取结果不同，参考 <a href="https://github.com/JoeanAmier/TikTokDownloader/issues/145">issue</a></p>
 <h1>免责声明</h1>
 <ol>
 <li>使用者对本项目的使用由使用者自行决定，并自行承担风险。作者对使用者使用本项目所产生的任何损失、责任、或风险概不负责。</li>
