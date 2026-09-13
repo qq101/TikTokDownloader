@@ -3343,6 +3343,54 @@
             "earliest": 2,
             "latest": "",
             "enable": true
+        },
+        {
+            "mark": "真实规则",
+            "url": "https://www.douyin.com/user/MS4wLjABAAAAKxn2mXQwzzkKXM5Y_e-tI9N7VSgXRWtjLvOpXGtKWOo",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "",
+            "url": "",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "",
+            "url": "",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "",
+            "url": "",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "",
+            "url": "",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
+        },
+        {
+            "mark": "",
+            "url": "",
+            "tab": "post",
+            "earliest": 2,
+            "latest": "",
+            "enable": true
         }
     ],
     "accounts_urls_tiktok": [
@@ -3488,5 +3536,6 @@
         "tz_name": "Asia/Shanghai",
         "webcast_language": "zh-Hans",
         "device_id": ""
-    }
+    },
+    "original_quality": false
 }
